@@ -7,16 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0424260424C0F9700020B8BF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0424260324C0F96F0020B8BF /* GoogleService-Info.plist */; };
+		0424260624C106040020B8BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0424260524C106040020B8BF /* Assets.xcassets */; };
+		0424260824C107600020B8BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0424260724C107600020B8BF /* ViewController.swift */; };
+		0449072D24C45B8300BD5816 /* addPetVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0449072C24C45B8300BD5816 /* addPetVC.swift */; };
+		0479B99E24C2265B00F21B80 /* mainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479B99D24C2265B00F21B80 /* mainViewController.swift */; };
+		0479B9A024C228D200F21B80 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0479B99F24C228D200F21B80 /* TableViewCell.swift */; };
+		047A40B224C4B96B00B53910 /* DetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A40B124C4B96B00B53910 /* DetailVC.swift */; };
+		047A40B424C4D67900B53910 /* NetworkingImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047A40B324C4D67900B53910 /* NetworkingImages.swift */; };
+		04A9167724C47ADE00544FBF /* pets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04A9167624C47ADE00544FBF /* pets.swift */; };
 		D209076024B9EA180069B920 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D209075F24B9EA180069B920 /* Main.storyboard */; };
 		D209076324B9ED810069B920 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076224B9ED810069B920 /* SignInVC.swift */; };
 		D209076524B9EE8D0069B920 /* SignUpVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076424B9EE8D0069B920 /* SignUpVC.swift */; };
 		D209076724B9FB0D0069B920 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076624B9FB0D0069B920 /* HomeVC.swift */; };
 		D209076924B9FDC60069B920 /* CreateItemVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076824B9FDC60069B920 /* CreateItemVC.swift */; };
 		D209076B24B9FDD80069B920 /* ItemListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = D209076A24B9FDD80069B920 /* ItemListVC.swift */; };
-		D26B2C612469F2A200470CA2 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D26B2C602469F2A200470CA2 /* GoogleService-Info.plist */; };
 		D2C26FD424662807005E16A3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C26FD324662807005E16A3 /* AppDelegate.swift */; };
 		D2C26FD624662807005E16A3 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C26FD524662807005E16A3 /* SceneDelegate.swift */; };
-		D2C26FDA24662809005E16A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C26FD924662809005E16A3 /* Assets.xcassets */; };
 		D2C26FDD24662809005E16A3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D2C26FDC24662809005E16A3 /* Preview Assets.xcassets */; };
 		D2C26FE024662809005E16A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D2C26FDE24662809005E16A3 /* LaunchScreen.storyboard */; };
 		D2C27013246628E0005E16A3 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = D2C27012246628E0005E16A3 /* libsqlite3.tbd */; };
@@ -50,7 +57,6 @@
 		D2C2704A24662C68005E16A3 /* Keyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2703724662C5A005E16A3 /* Keyboard.swift */; };
 		D2C2704B24662C68005E16A3 /* Optional.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2703824662C5A005E16A3 /* Optional.swift */; };
 		D2C2704C24662C6E005E16A3 /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2704224662C5A005E16A3 /* Networking.swift */; };
-		D2C2704D24662C6E005E16A3 /* NetworkingImages.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2704324662C5A005E16A3 /* NetworkingImages.swift */; };
 		D2C2704F24662C73005E16A3 /* NetowrkableAuth.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2704024662C5A005E16A3 /* NetowrkableAuth.swift */; };
 		D2C2705024662C73005E16A3 /* NetworkingSignUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2704124662C5A005E16A3 /* NetworkingSignUp.swift */; };
 		D2C2705224662C9A005E16A3 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2C2705124662C9A005E16A3 /* User.swift */; };
@@ -58,7 +64,29 @@
 		F44A754633CD1CC597E156F9 /* Pods_FirebaseTemplate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F46289A53C740F541F362795 /* Pods_FirebaseTemplate.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		04A532E324C3A0AE00A7AA09 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0424260324C0F96F0020B8BF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		0424260524C106040020B8BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0424260724C107600020B8BF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0449072C24C45B8300BD5816 /* addPetVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addPetVC.swift; sourceTree = "<group>"; };
+		0479B99D24C2265B00F21B80 /* mainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainViewController.swift; sourceTree = "<group>"; };
+		0479B99F24C228D200F21B80 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		047A40B124C4B96B00B53910 /* DetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailVC.swift; sourceTree = "<group>"; };
+		047A40B324C4D67900B53910 /* NetworkingImages.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingImages.swift; sourceTree = "<group>"; };
+		04A9167624C47ADE00544FBF /* pets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pets.swift; sourceTree = "<group>"; };
 		9377AE6CE82235456148A2D9 /* Pods-FirebaseTemplate.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTemplate.release.xcconfig"; path = "Target Support Files/Pods-FirebaseTemplate/Pods-FirebaseTemplate.release.xcconfig"; sourceTree = "<group>"; };
 		B1FD124CAB9AE9745E818900 /* Pods-FirebaseTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseTemplate.debug.xcconfig"; path = "Target Support Files/Pods-FirebaseTemplate/Pods-FirebaseTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		D209075F24B9EA180069B920 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
@@ -67,11 +95,9 @@
 		D209076624B9FB0D0069B920 /* HomeVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
 		D209076824B9FDC60069B920 /* CreateItemVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateItemVC.swift; sourceTree = "<group>"; };
 		D209076A24B9FDD80069B920 /* ItemListVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemListVC.swift; sourceTree = "<group>"; };
-		D26B2C602469F2A200470CA2 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		D2C26FD024662807005E16A3 /* FirebaseTemplate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebaseTemplate.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2C26FD024662807005E16A3 /* PetShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PetShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2C26FD324662807005E16A3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D2C26FD524662807005E16A3 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D2C26FD924662809005E16A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D2C26FDC24662809005E16A3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D2C26FDF24662809005E16A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D2C26FE124662809005E16A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -108,7 +134,6 @@
 		D2C2704024662C5A005E16A3 /* NetowrkableAuth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetowrkableAuth.swift; sourceTree = "<group>"; };
 		D2C2704124662C5A005E16A3 /* NetworkingSignUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingSignUp.swift; sourceTree = "<group>"; };
 		D2C2704224662C5A005E16A3 /* Networking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
-		D2C2704324662C5A005E16A3 /* NetworkingImages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingImages.swift; sourceTree = "<group>"; };
 		D2C2705124662C9A005E16A3 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		D2C2705624662F3F005E16A3 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		F46289A53C740F541F362795 /* Pods_FirebaseTemplate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseTemplate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -171,9 +196,11 @@
 		D209076124B9ED660069B920 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
+				0424260724C107600020B8BF /* ViewController.swift */,
 				D209076224B9ED810069B920 /* SignInVC.swift */,
 				D209076424B9EE8D0069B920 /* SignUpVC.swift */,
 				D209076624B9FB0D0069B920 /* HomeVC.swift */,
+				0479B99D24C2265B00F21B80 /* mainViewController.swift */,
 				D209076824B9FDC60069B920 /* CreateItemVC.swift */,
 				D209076A24B9FDD80069B920 /* ItemListVC.swift */,
 			);
@@ -194,7 +221,7 @@
 		D2C26FD124662807005E16A3 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2C26FD024662807005E16A3 /* FirebaseTemplate.app */,
+				D2C26FD024662807005E16A3 /* PetShop.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -203,15 +230,17 @@
 			isa = PBXGroup;
 			children = (
 				D209076124B9ED660069B920 /* ViewControllers */,
-				D26B2C602469F2A200470CA2 /* GoogleService-Info.plist */,
 				D2C26FD324662807005E16A3 /* AppDelegate.swift */,
 				D2C26FD524662807005E16A3 /* SceneDelegate.swift */,
+				047A40B124C4B96B00B53910 /* DetailVC.swift */,
 				D209075F24B9EA180069B920 /* Main.storyboard */,
+				0449072C24C45B8300BD5816 /* addPetVC.swift */,
+				0479B99F24C228D200F21B80 /* TableViewCell.swift */,
 				D2C2703E24662C5A005E16A3 /* Networking */,
 				D2C2705324662CAA005E16A3 /* Models */,
-				D2C26FD924662809005E16A3 /* Assets.xcassets */,
 				D2C26FDE24662809005E16A3 /* LaunchScreen.storyboard */,
 				D2C26FE124662809005E16A3 /* Info.plist */,
+				0424260324C0F96F0020B8BF /* GoogleService-Info.plist */,
 				D2C2703524662C5A005E16A3 /* Extensions */,
 				D2C2703924662C5A005E16A3 /* Helpers */,
 				D2C26FDB24662809005E16A3 /* Preview Content */,
@@ -280,9 +309,9 @@
 		D2C2703E24662C5A005E16A3 /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				047A40B324C4D67900B53910 /* NetworkingImages.swift */,
 				D2C2703F24662C5A005E16A3 /* Auth */,
 				D2C2704224662C5A005E16A3 /* Networking.swift */,
-				D2C2704324662C5A005E16A3 /* NetworkingImages.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -299,8 +328,10 @@
 		D2C2705324662CAA005E16A3 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				0424260524C106040020B8BF /* Assets.xcassets */,
 				D2C2705124662C9A005E16A3 /* User.swift */,
 				D2C2705624662F3F005E16A3 /* Item.swift */,
+				04A9167624C47ADE00544FBF /* pets.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -317,6 +348,7 @@
 				D2C26FCD24662807005E16A3 /* Frameworks */,
 				D2C26FCE24662807005E16A3 /* Resources */,
 				091AD200CEF84381B228F838 /* [CP] Embed Pods Frameworks */,
+				04A532E324C3A0AE00A7AA09 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
@@ -324,7 +356,7 @@
 			);
 			name = FirebaseTemplate;
 			productName = FirebaseTemplate;
-			productReference = D2C26FD024662807005E16A3 /* FirebaseTemplate.app */;
+			productReference = D2C26FD024662807005E16A3 /* PetShop.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -333,7 +365,7 @@
 		D2C26FC824662807005E16A3 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1140;
+				LastSwiftUpdateCheck = 1150;
 				LastUpgradeCheck = 1140;
 				ORGANIZATIONNAME = OMAR;
 				TargetAttributes = {
@@ -367,9 +399,9 @@
 			files = (
 				D2C26FE024662809005E16A3 /* LaunchScreen.storyboard in Resources */,
 				D209076024B9EA180069B920 /* Main.storyboard in Resources */,
+				0424260424C0F9700020B8BF /* GoogleService-Info.plist in Resources */,
 				D2C26FDD24662809005E16A3 /* Preview Assets.xcassets in Resources */,
-				D2C26FDA24662809005E16A3 /* Assets.xcassets in Resources */,
-				D26B2C612469F2A200470CA2 /* GoogleService-Info.plist in Resources */,
+				0424260624C106040020B8BF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -426,22 +458,28 @@
 				D2C2704C24662C6E005E16A3 /* Networking.swift in Sources */,
 				D2C2705724662F3F005E16A3 /* Item.swift in Sources */,
 				D209076724B9FB0D0069B920 /* HomeVC.swift in Sources */,
+				04A9167724C47ADE00544FBF /* pets.swift in Sources */,
 				D2C2704B24662C68005E16A3 /* Optional.swift in Sources */,
 				D2C26FD624662807005E16A3 /* SceneDelegate.swift in Sources */,
 				D2C2704924662C68005E16A3 /* Codable.swift in Sources */,
 				D2C2704724662C63005E16A3 /* ValidatePassword.swift in Sources */,
 				D2C2704A24662C68005E16A3 /* Keyboard.swift in Sources */,
 				D209076924B9FDC60069B920 /* CreateItemVC.swift in Sources */,
+				047A40B424C4D67900B53910 /* NetworkingImages.swift in Sources */,
 				D2C2704624662C63005E16A3 /* ImageUploader.swift in Sources */,
 				D209076B24B9FDD80069B920 /* ItemListVC.swift in Sources */,
+				0449072D24C45B8300BD5816 /* addPetVC.swift in Sources */,
 				D2C2705224662C9A005E16A3 /* User.swift in Sources */,
+				047A40B224C4B96B00B53910 /* DetailVC.swift in Sources */,
+				0479B99E24C2265B00F21B80 /* mainViewController.swift in Sources */,
 				D209076324B9ED810069B920 /* SignInVC.swift in Sources */,
 				D2C2705024662C73005E16A3 /* NetworkingSignUp.swift in Sources */,
 				D2C2704524662C63005E16A3 /* ImageLoader.swift in Sources */,
 				D2C2704824662C63005E16A3 /* DateFromatter.swift in Sources */,
 				D2C2704F24662C73005E16A3 /* NetowrkableAuth.swift in Sources */,
-				D2C2704D24662C6E005E16A3 /* NetworkingImages.swift in Sources */,
+				0424260824C107600020B8BF /* ViewController.swift in Sources */,
 				D209076524B9EE8D0069B920 /* SignUpVC.swift in Sources */,
+				0479B9A024C228D200F21B80 /* TableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,7 +618,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FirebaseTemplate/Preview Content\"";
-				DEVELOPMENT_TEAM = 9VCECTYT2E;
+				DEVELOPMENT_TEAM = BR48F9FTQX;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -598,8 +636,8 @@
 					"$(OTHER_LDFLAGS)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.khatma.com;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PetShop.Dana;
+				PRODUCT_NAME = PetShop;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -612,7 +650,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"FirebaseTemplate/Preview Content\"";
-				DEVELOPMENT_TEAM = 9VCECTYT2E;
+				DEVELOPMENT_TEAM = BR48F9FTQX;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -630,8 +668,8 @@
 					"$(OTHER_LDFLAGS)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.khatma.com;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.PetShop.Dana;
+				PRODUCT_NAME = PetShop;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

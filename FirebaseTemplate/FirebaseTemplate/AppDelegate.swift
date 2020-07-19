@@ -1,15 +1,10 @@
-//
-//  AppDelegate.swift
-//  FirebaseTemplate
-//
-//  Created by Omar Alibrahim on 5/9/20.
-//  Copyright © 2020 OMAR. All rights reserved.
-//
+
 
 import UIKit
 import Firebase
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
+   
 
 
 
