@@ -50,7 +50,7 @@
         <!--Sign in-->
         <scene sceneID="yf1-W6-NyH">
             <objects>
-                <viewController id="Vni-Cg-ise" customClass="SignInVC" customModule="FirebaseTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Vni-Cg-ise" customClass="SignInVC" customModule="PetShop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="YOG-CE-Qb1">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -121,7 +121,7 @@
         <!--Register-->
         <scene sceneID="K4W-9B-Z4L">
             <objects>
-                <viewController id="LXE-zx-4xL" customClass="SignUpVC" customModule="FirebaseTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="LXE-zx-4xL" customClass="SignUpVC" customModule="PetShop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ISz-kr-aYQ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -213,7 +213,7 @@
         <!--Home-->
         <scene sceneID="rbj-sC-drW">
             <objects>
-                <viewController id="8So-Xe-hVL" customClass="HomeVC" customModule="FirebaseTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="8So-Xe-hVL" customClass="HomeVC" customModule="PetShop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tsJ-G6-ii5">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -246,7 +246,7 @@
         <!--Create-->
         <scene sceneID="UMa-tf-ksA">
             <objects>
-                <viewController id="9Mf-6o-Ond" customClass="CreateItemVC" customModule="FirebaseTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9Mf-6o-Ond" customClass="CreateItemVC" customModule="PetShop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fNU-tO-kTO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -302,7 +302,7 @@
         <!--Item ListVC-->
         <scene sceneID="zg3-xh-a7A">
             <objects>
-                <tableViewController id="5Wb-EP-3IM" customClass="ItemListVC" customModule="FirebaseTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="5Wb-EP-3IM" customClass="ItemListVC" customModule="PetShop" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="r4z-Bh-eaR">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -417,7 +417,7 @@
         <!--Main View Controller-->
         <scene sceneID="iLJ-jZ-y9R">
             <objects>
-                <viewController id="Spq-5v-RTe" customClass="mainViewController" customModule="FirebaseTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="Spq-5v-RTe" customClass="mainViewController" customModule="PetShop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="yVY-Mq-4qX">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -449,7 +449,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="159" id="IFM-Y7-si9" customClass="TableViewCell" customModule="FirebaseTemplate" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" rowHeight="159" id="IFM-Y7-si9" customClass="TableViewCell" customModule="PetShop" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="414" height="159"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="IFM-Y7-si9" id="luT-ch-oR2">
@@ -488,7 +488,7 @@
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Obs-Qo-RQJ">
+                                                <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Obs-Qo-RQJ">
                                                     <rect key="frame" x="11" y="10" width="201" height="137"/>
                                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                                 </imageView>
@@ -569,7 +569,7 @@
         <!--Add PetVC-->
         <scene sceneID="9Ay-8h-qgr">
             <objects>
-                <viewController id="9R2-Yt-7tL" customClass="addPetVC" customModule="FirebaseTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9R2-Yt-7tL" customClass="addPetVC" customModule="PetShop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="sNZ-iN-hha">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -706,12 +706,12 @@
         <!--DetailVC-->
         <scene sceneID="3kR-Sf-Zjr">
             <objects>
-                <viewController id="7nj-Bj-3HZ" customClass="DetailVC" customModule="FirebaseTemplate" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="7nj-Bj-3HZ" customClass="DetailVC" customModule="PetShop" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bk-7z-BBO">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y3h-Zz-zkk">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="y3h-Zz-zkk">
                                 <rect key="frame" x="-10" y="0.0" width="424" height="370"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -724,7 +724,7 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="Orange2" translatesAutoresizingMaskIntoConstraints="NO" id="H8Y-ry-ROP">
-                                <rect key="frame" x="159" y="490" width="97" height="88"/>
+                                <rect key="frame" x="159" y="491" width="97" height="88"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" fixedFrame="YES" image="orange3" translatesAutoresizingMaskIntoConstraints="NO" id="N97-fq-2sl">

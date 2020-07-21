@@ -70,7 +70,7 @@ class mainViewController: UIViewController , UITableViewDataSource, UITableViewD
         
         
         
-        Networking.downloadImage(path: "Pets/\(pet.addAge)/") { (image) in
+        Networking.downloadImage(path: "Pets/\(pet.addAge)/\(pet.addAge).png") { (image) in
             cell.imageView?.image = image
         }
         

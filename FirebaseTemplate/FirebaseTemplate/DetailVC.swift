@@ -55,7 +55,7 @@ class DetailVC: UIViewController {
         lableGender.text! = petArray.addGender
         lableAge.text! = petArray.addAge
         
-        Networking.downloadImage(path: "Pets/\(petArray.addAge)/") { (image) in
+        Networking.downloadImage(path: "Pets/\(petArray.addAge)/\(petArray.addAge).png") { (image) in
             self.imageView.image = image
         }
         
